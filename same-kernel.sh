@@ -1,3 +1,6 @@
+echo "THIS SCRIPT IS NOT YET READY TO BE USED HERE" ; exit 
+
+
 echo "-------------------------------------------"
 echo "The Mempo's version"
 echo "-------------------------------------------"

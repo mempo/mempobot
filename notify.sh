@@ -3,7 +3,9 @@
 # startirc.sh must be executed!!! 
 # irc  
 pwd
-source irc.conf
+
+irc_conf_file="conf.my/irc.conf"
+source $irc_conf_file
 
 echo "$@" > "$BASEDIR/$HOST/#mempo/in" & 
 

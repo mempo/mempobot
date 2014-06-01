@@ -3,7 +3,7 @@
 light_red='\e[1;31m' 
 NC='\e[0m' # No Color
 
-irc_conf_file="irc.conf"
+irc_conf_file="conf.my/irc.conf"
 
 # Config file exist?
 if [[ ! -r "$irc_conf_file" ]] ; then  
