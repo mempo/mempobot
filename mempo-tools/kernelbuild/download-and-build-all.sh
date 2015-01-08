@@ -5,9 +5,11 @@ echo "Going to start the Mempo secure kernel build. In case of trouble read all 
 echo "=== GOING to build ALL FLAVOURS ==="
 echo 
 
+const_default_git_user='mempo'
+
 function help_usage_download_and_build_all() {
 	echo "Usage of download_and_build.sh:"
-	echo "argument 1 can be empty, or is the name of git-user, default value is: $const_default_git_user"
+	echo "argument 1 is the name of git-user. E.g. use: $const_default_git_user"
 	echo "argument 2 can be empty, or --check-hash" 
 	echo "argument 3 can be empty, or for --check-hash it should be the full hash"
 	echo ""
