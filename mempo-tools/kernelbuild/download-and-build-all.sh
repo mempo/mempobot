@@ -35,7 +35,7 @@ echo "git_user=$git_user"
 echo "advanced=$advanced" 
 echo "advanced_opt=$advanced_opt" 
 
-for flavour in 'deb7/servmax' 'deb7/zero' 'deb7/deskmax' 'deb7/desk' 'deb7/serv'
+for flavour in 'deb7/servmax' 'deb7/servmaxdbg' 'deb7/deskmax' 'deb7/desk' 'deb7/serv' 'deb7/deskmaxdbg' 'deb7/insecuregrsoff' 'deb7/zero'
 do
 	./download-and-build.sh "$flavour" "$git_user" "$advanced" "$advanced_opt"
 done
